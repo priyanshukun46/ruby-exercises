@@ -40,7 +40,7 @@ end
 # hint: use String#ord
 def ascii_code(character)
   unless character.length ==1 
-    retur'Input Error' 
+    return'Input Error' 
   end
     character.ord
 end
